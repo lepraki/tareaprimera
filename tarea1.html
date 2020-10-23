@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Espera un momento papu...</title>
+    <script src="https://aframe.io/releases/1.0.4/aframe.min.js"    ></script>
+   <!-- <script src="https://unpkg.com/ aframe-particle-system-component@1.0.x /dist/aframe-particle-system-component.min.js"></script>  -->
+</head>
+<body>
+    <a-scene>
+        <a-assets>
+            <!-- <video id="video" autoplay loop = "true" src ="assets/Not Today - This Music Is Dead Ft. Felipe Grajales.mp4"></video> -->
+            <img id="sky" src="assets/texturas/fondee.jpg">
+            <img id="pizo" src="assets/texturas/pizo.jpg">
+
+            <img id="madera" src="assets/texturas/madera.png"> --> -->
+            </a-assets>
+
+
+       <a-sky src="#sky"></a-sky> -->
+
+        <!-- <a-video src ="#video" width = "16" height = "9" position = "0 0-20"></a-video> --> -->
+
+        <a-camera position="1 0.5 5"></a-camera>
+
+        <a-box src="#madera" position="0 1 0" rotation="0 0 0" >
+
+        </a-box>
+        <a-entity light ="type: point; intensity: 0.75; distance: 50; decay: 2; color: #ffb804"
+        positon="-4 4 0"></a-entity>
+        <a-entity light ="type: point; intensity: 0,75; distance: 50; decay: 2; color: #1a55ff"
+        positon="4 4 0"></a-entity>
+        <a-plane src="#pizo" width="10" height="10" rotation="-90 0 0"></a-plane> 
+
+         <!-- <a-entity geometry="primitive:box"
+          material= "shader: flat;src:#video"></a-entity> -->
+
+     -->
+
+     <!-- <a-box src="#video" rotation="0 0 0" scale ="5 5 5" position="0 1 0"></a-box> -->
+
+
+    </a-scene>
+</body>
+</html>
